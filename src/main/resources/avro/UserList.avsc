@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "UserList",
+  "namespace": "com.kafka.schema",
+  "fields": [
+    {
+      "name" : "Users",
+      "type" : {
+        "type" : "array",
+        "items" : "com.kafka.schema.UserExample"
+      }
+    }
+  ]
+}
